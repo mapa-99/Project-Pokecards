@@ -6,7 +6,7 @@ import lista from "./data";
 function App() {
   return (
     <div className="App">
-      <header >
+      <header>
         <img src={header} alt="header" />
       </header>
       <div>
