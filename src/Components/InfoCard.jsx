@@ -16,6 +16,7 @@ export const InfoCard = ({ pokeNombre, pokeImagen, pokeTipo }) => {
             width="120"
             height="120"
             style={{
+              backgroundColor:"white",
               borderRadius: "50%",
               border: "4px solid black",
               verticalAlign: "middle",

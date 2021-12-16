@@ -6,7 +6,7 @@ const savePokemon = () => {
   for (let i = 0; i < 10; i++) {
     let aleatorio = getRandomInt(1, 150);
     getPokemones(aleatorio);
-  }
+  } 
 };
 const getPokemones = async (id) => {
   try {
@@ -19,3 +19,4 @@ const getPokemones = async (id) => {
 }; 
 savePokemon();
 export default lista;
+

@@ -34,7 +34,7 @@ export const Card = styled.div`
         return `#036DC3`;
       case "ground":
         return `#D97942`;
-      case "fight":
+      case "fighting":
         return `#CE3E6A`;
     }
   }};

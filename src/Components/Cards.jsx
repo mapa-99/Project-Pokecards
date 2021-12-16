@@ -13,6 +13,7 @@ export const Cards = ({ lista }) => {
             key={poke.id}
             pokeNombre={poke.name}
             pokeTipo={poke.types[0].type.name}
+            pokeImagen={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${poke.id}.png`}
           />
         );
       })}
